@@ -37,6 +37,25 @@
           }
         }
       ]
+    },
+    "/desktops/": {
+      "get": {},
+      "post": {}
+    },
+    "/desktops/{desktop}/": {
+      "get": {},
+      "put": {},
+      "delete": {},
+      "parameters": [
+        {
+          "name": "desktop",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
     }
   },
   "components": {
